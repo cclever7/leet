@@ -29,3 +29,9 @@ func Test_majorityElement(t *testing.T) {
 	ret := majorityElement(nums)
 	fmt.Println(nums, ret)
 }
+
+func Test_lengthOfLastWord(t *testing.T) {
+	s := "hello world"
+	ret := lengthOfLastWord(s)
+	fmt.Println(ret)
+}
