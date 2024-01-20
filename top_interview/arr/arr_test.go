@@ -1,4 +1,4 @@
-package top_interview
+package arr
 
 import (
 	"fmt"
