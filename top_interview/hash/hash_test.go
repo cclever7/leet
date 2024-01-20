@@ -19,3 +19,9 @@ func Test_wordPatternwordPattern(t *testing.T) {
 	s1, s2 := "abba", "dog dog dog dog"
 	fmt.Println(wordPattern(s1, s2))
 }
+
+func Test_twoSum(t *testing.T) {
+	nums := []int{3, 2, 3}
+	target := 6
+	fmt.Println(twoSum(nums, target))
+}
