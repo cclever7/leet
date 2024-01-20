@@ -14,3 +14,8 @@ func Test_isIsomorphic(t *testing.T) {
 	s1, s2 := "paper", "title"
 	fmt.Println(isIsomorphic(s1, s2))
 }
+
+func Test_wordPatternwordPattern(t *testing.T) {
+	s1, s2 := "abba", "dog dog dog dog"
+	fmt.Println(wordPattern(s1, s2))
+}
