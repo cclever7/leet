@@ -17,3 +17,9 @@ func Test_removeElement(t *testing.T) {
 	ret := removeElement(nums, 3)
 	fmt.Println(nums, ret)
 }
+
+func Test_removeDuplicates(t *testing.T) {
+	nums := []int{1, 2, 2, 3}
+	ret := removeDuplicates(nums)
+	fmt.Println(nums, ret)
+}
