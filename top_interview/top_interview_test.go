@@ -23,3 +23,9 @@ func Test_removeDuplicates(t *testing.T) {
 	ret := removeDuplicates(nums)
 	fmt.Println(nums, ret)
 }
+
+func Test_majorityElement(t *testing.T) {
+	nums := []int{2, 2, 1, 1, 1, 2, 2}
+	ret := majorityElement(nums)
+	fmt.Println(nums, ret)
+}
