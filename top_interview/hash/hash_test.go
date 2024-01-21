@@ -31,3 +31,8 @@ func Test_containsNearbyDuplicate(t *testing.T) {
 	target := 1
 	fmt.Println(containsNearbyDuplicate(nums, target))
 }
+
+func Test_isAnagram(t *testing.T) {
+	s, v := "rat", "car"
+	fmt.Println(isAnagram(s, v))
+}
