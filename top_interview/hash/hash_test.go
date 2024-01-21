@@ -25,3 +25,9 @@ func Test_twoSum(t *testing.T) {
 	target := 6
 	fmt.Println(twoSum(nums, target))
 }
+
+func Test_containsNearbyDuplicate(t *testing.T) {
+	nums := []int{1, 0, 1, 1}
+	target := 1
+	fmt.Println(containsNearbyDuplicate(nums, target))
+}
