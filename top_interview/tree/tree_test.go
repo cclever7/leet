@@ -12,3 +12,10 @@ func Test_maxDepth(t *testing.T) {
 	ret := maxDepth(root)
 	fmt.Println(ret)
 }
+
+func Test_isSameTree(t *testing.T) {
+	p := &TreeNode{Val: 1}
+	q := &TreeNode{Val: 1, Left: &TreeNode{Val: 1}}
+	ret := isSameTree(p, q)
+	fmt.Println("ret", ret)
+}
