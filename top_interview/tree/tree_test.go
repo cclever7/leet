@@ -19,3 +19,9 @@ func Test_isSameTree(t *testing.T) {
 	ret := isSameTree(p, q)
 	fmt.Println("ret", ret)
 }
+
+func Test_isSymmetric(t *testing.T) {
+	root := &TreeNode{Val: 1, Left: &TreeNode{Val: 1}, Right: &TreeNode{Val: 1}}
+	ret := isSymmetric(root)
+	fmt.Println("ret", ret)
+}
